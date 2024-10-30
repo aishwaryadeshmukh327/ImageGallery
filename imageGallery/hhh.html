@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZmeal | Best Indian Canteen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Black background for a classy look */
+            color: #fff; /* Default text color for better contrast */
+        }
+
+        header {
+            background-color: #000; /* Header background */
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative; /* To allow absolute positioning of other elements if needed */
+        }
+
+        header h1 {
+            margin: 0;
+            color: #d4c5c5;
+            font-weight: 900;
+            font-size: 3rem; /* Slightly larger font for the restaurant name */
+        }
+
+        .hero {
+            background-image: url('https://b.zmtcdn.com/data/pictures/chains/9/20585879/136095c291a9c8fab9fe34e89676e86e.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::after {
+            content: ""; /* Adding a pseudo-element for a dark overlay */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            z-index: 1; /* Positioning overlay above background image */
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin: 0; /* Reset margin for centering */
+            z-index: 2; /* Positioning text above overlay */
+            color: #fff; /* White text color */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 20px 0; /* Reduced margin for better spacing */
+            z-index: 2; /* Positioning text above overlay */
+            color: #f9f9f9; /* Slightly lighter color for contrast */
+        }
+
+        .btn {
+            padding: 15px 40px; /* Adjusted padding */
+            background-color: #e11e1e; /* Button background color */
+            color: #fff; /* White text color */
+            text-decoration: none;
+            border-radius: 8px; /* Slightly smaller radius */
+            border: 2px solid white; /* White border for visibility */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Softer shadow */
+            transition: background-color 0.3s ease;
+            margin-top: 20px; /* Spacing above button */
+            z-index: 2; /* Positioning button above overlay */
+        }
+
+        .btn:hover {
+            background-color: #ff4757; /* Lighter color on hover */
+        }
+
+        footer {
+            background-color: #333; /* Dark footer background */
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 20px 0;
+            position: relative; /* For stacking context */
+        }
+
+        footer p {
+            margin: 0; /* Reset margin for footer text */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to EZmeal</h1>
+    </header>
+    
+    <section class="hero">
+        <h2>Best Indian Canteen!</h2>
+        <p>EZmeal Official Website. Save Money Ordering Directly Here. Healthy Options. Fast Service. Friendly Team. Top Rated.</p>
+        <a href="file:///C:/Users/HP/OneDrive/Documents/project/mini/LOGIN%5B1%5D.html" class="btn">Order Now</a> <!-- Link to the login page -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 EZmeal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
